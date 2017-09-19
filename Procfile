@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.testhi --log-file -
+web: gunicorn gettingstarted.testhi:app --log-file -
